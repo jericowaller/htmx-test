@@ -1,0 +1,14 @@
+.content1(class="flex items-center w-full h-100 mt-12")
+  .content2(class="mx-auto bg-black/25 w-1/4 h-3/4 rounded-xl")
+    .flex
+      p(class="mx-auto text-white text-4xl mt-10") #{name}
+    .flex
+      p(class="mx-auto text-white text-8xl mt-4") #{temp}°F
+    .flex
+      p(class="mx-auto text-white text-2xl mt-8 mb-10") Feels like: #{feels}°F
+.content3(class="flex w-full h-40 mt-12")
+  .content4(class="mx-auto bg-black/25 w-1/2 h-1/2 rounded-xl")
+    .flex
+      p(class="mx-auto text-white text-1xl mt-6") Current weather: #{weather} 
+      p(class="mx-auto text-white text-1xl mt-6") Humidity: #{humidity}% 
+      p(class="mx-auto text-white text-1xl mt-6") Wind speed: #{wind} MPH 
